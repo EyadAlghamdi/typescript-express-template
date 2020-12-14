@@ -1,0 +1,33 @@
+{
+  "name": "typescript-express-template",
+  "version": "1.0.0",
+  "description": "Template for using typescript with Express in Nodejs. It allows for quick plug and play to start your idea",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "ts-node-dev ./src/index.ts",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EyadAlghamdi/typescript-express-template.git"
+  },
+  "author": "Eyad Alghamdi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EyadAlghamdi/typescript-express-template/issues"
+  },
+  "homepage": "https://github.com/EyadAlghamdi/typescript-express-template#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.9",
+    "@types/node": "^14.14.13",
+    "jest": "^26.6.3",
+    "ts-node-dev": "^1.1.1",
+    "typescript": "^4.1.3",
+    "webpack": "^5.10.1"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
